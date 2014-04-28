@@ -4,8 +4,6 @@ author: Damien
 layout: post
 permalink: /2007/10/why-photography/
 categories:
-  - Uncategorized
-tags:
   - motivation
   - photography
 ---

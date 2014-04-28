@@ -12,7 +12,7 @@ title : omad.net
 tagline: Damien Ayers - Irregular Musings
 author :
   name : Damien Ayers
-  email : blah@email.test
+  email : damien@omad.net
   github : omad
   twitter : omad
 
@@ -28,6 +28,8 @@ production_url : http://omad.github.io
 
 # For github, see https://help.github.com/articles/migrating-your-pages-site-from-maruku
 markdown: kramdown
+
+paginate: 6
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -82,7 +84,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -100,7 +102,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : false 
     google : 
         tracking_id : 'UA-123-12'
     getclicky :
